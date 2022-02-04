@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		double marks[] = new double[5];
+		double highest, sum=0 , avg =0 ;
+		Scanner sc = new Scanner(System.in);
+		for(int i=0;i<5;i++){
+		    marks[i]=sc.nextInt();
+		}
+		for(int i=0;i<4;i++){
+		    if(marks[i]>marks[i+1]){
+		        highest = marks[i];
+		    }else{
+		        highest = marks[i+1];
+		    }
+		    sum = sum + marks[i];
+		}
+		avg = sum/5;
+		System.out.println("Average is: " + avg);
+		System.out.print("Highest Marks: "+ highest);
+	}
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Fill this form</h2>
+    <hr />
+    <form action="backend.php">
+        <div>Naam : <input type="text" name="name" <label for=""></label>></div>
+        <br>
+        <div>Paasward : <input type="password" name="password"></div>
+        <br>
+        <div>Janm Tareekh : <input type="date" name="dob"></div>
+        <br>
+        <div>Gender :  <input type="radio" name="gender">Puling <input type="radio" name="gender">Streeling </div> 
+        <br>
+        <div>
+        Hobbies:<br> <select name="hobbies" multiple >
+            <option value="bd">Kabaddi</option>
+            <option value="sl">Soona</option>
+            <option value="eat">Nachna</option>
+            <option value="book">Muzeek</option>
+        </select></div>
+        <br>
+        <div>Ghar ka pata: <br> <textarea name="mytext" cols="30" rows="2"></textarea></div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

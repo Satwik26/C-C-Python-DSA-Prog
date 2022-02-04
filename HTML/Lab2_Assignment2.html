@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<body>
+    <style> 
+        #leftbox {
+            float:left; 
+            width:25%;
+            height:280px;
+        }
+        #middlebox{
+            float:left;
+            width:25%;
+            height:280px;
+        }
+        #rightbox{
+            float:right;
+            width:25%;
+            height:280px;
+        }
+        .k {
+			text-decoration: underline;
+			color:red;
+			text-align:center;
+		}
+        hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+.vertical {
+    border-left: 3px solid #333;
+  height: 100px;
+  position: absolute;
+  left: 30%;
+  margin-left: 2px;
+  top: 60;
+}
+.login {
+    font-size:15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-top: 30px;
+    
+}
+.about {
+    font-size:15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-top:50px;
+
+}
+.feed {
+    font-size: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+    </style> 
+    <dir id="leftbox">
+        <ul><li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        <ul type= circle><li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        <ul type=square><li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+    </dir>
+    <dir id= "middlebox">
+        <ol type="A" ><li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+        <ol start="3"><li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+        <ol type="i"><li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+    </dir>
+    <dir id= "rightbox">
+        <ul type=none><li>Coffee</li>
+            <ul>-black hot drink</ul>
+            <li>Milk</li>
+            <ul>-white hot drink</ul>
+        </ul>
+        <ul type=disc><li>Item A</li>
+            <li>Item B</li>
+            <ul type=circle><li>Subitem B.1</li>
+            <li>Subitem B.2</li></ul>
+            <li>Item C</li>
+        </ul>
+    </dir>
+    <h1  class="k" style="text-decoration: underline;color:red;text-align: center;">KIIT University</h1>
+</body>
+</html>
