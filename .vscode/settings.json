@@ -48,5 +48,9 @@
         "xutility": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled",
-    "C_Cpp.intelliSenseEngineFallback": "Disabled"
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "java.project.sourcePaths": [
+        "HTML",
+        "java"
+    ]
 }

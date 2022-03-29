@@ -5,6 +5,139 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch readCsv",
+            "request": "launch",
+            "mainClass": "readCsv",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch proj",
+            "request": "launch",
+            "mainClass": "proj",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch q4",
+            "request": "launch",
+            "mainClass": "assignment5.q4",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch q3",
+            "request": "launch",
+            "mainClass": "assignment5.q3",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch override",
+            "request": "launch",
+            "mainClass": "assignment5.override",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch q5",
+            "request": "launch",
+            "mainClass": "assignment5.q5",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "assignment5.main",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch multiinheritence",
+            "request": "launch",
+            "mainClass": "assignment5.multiinheritence",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch manufacturer",
+            "request": "launch",
+            "mainClass": "assignment5.manufacturer",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch para",
+            "request": "launch",
+            "mainClass": "para",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shape3D",
+            "request": "launch",
+            "mainClass": "Shape3D",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch result",
+            "request": "launch",
+            "mainClass": "result",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch Circle",
+            "request": "launch",
+            "mainClass": "Circle",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rect",
+            "request": "launch",
+            "mainClass": "Rect",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch manufacturer",
+            "request": "launch",
+            "mainClass": "manufacturer",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch findarea",
+            "request": "launch",
+            "mainClass": "findarea",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch q1",
+            "request": "launch",
+            "mainClass": "q1",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch Overload",
+            "request": "launch",
+            "mainClass": "Overload",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
+            "type": "java",
+            "name": "Launch overload",
+            "request": "launch",
+            "mainClass": "overload",
+            "projectName": "C,C++,python Prog_99d20833"
+        },
+        {
             "name": "gcc.exe - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",

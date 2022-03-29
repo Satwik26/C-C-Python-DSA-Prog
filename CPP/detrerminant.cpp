@@ -1,7 +1,7 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
-int Det( int matrix[][],int n){
+int Det(int *matrix[],int n){
    int det = 0;
    int submatrix[10][10];
    if (n == 2)
@@ -26,14 +26,16 @@ int Det( int matrix[][],int n){
 }
 int main() {
    int n, i, j;
-   int matrix[n][n];
    cout << "Enter the size of the square matrix:\n";
    cin >> n;
+   int matrix[n][n];
    cout << "Enter the elements of the matrix:\n";
    for (i = 0; i < n; i++){
         for (j = 0; j < n; j++){
         cin >> matrix[i][j];
         cout<<"The entered matrix is:"<<endl;
+        }
+   }
    for (i = 0; i < n; i++) {
       for (j = 0; j < n; j++)
       cout << matrix[i][j] <<" ";
